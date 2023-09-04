@@ -1,0 +1,22 @@
+{
+  "movies": [
+    {
+      "title": "Titanic",
+      "genre": "Drama",
+      "year": "1998",
+      "id": 2
+    },
+    {
+      "title": "Toy Story",
+      "genre": "Infantil",
+      "year": "1995",
+      "id": 5
+    },
+    {
+      "title": "Star Wars",
+      "genre": "Ficção científica",
+      "year": "1977",
+      "id": 6
+    }
+  ]
+}

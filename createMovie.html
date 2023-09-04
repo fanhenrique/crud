@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastrar Filmes</title>
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/createMovie.css">
+
+</head>
+
+<body>
+  <div class="top-menu">
+    <a href="/createMovie.html">Criar</a>
+    <a href="/readMovie.html">Listar</a>
+    <a href="/deleteMovie.html">Deletar</a>
+    <a href="/updateMovie.html">Update</a>
+  </div>
+
+  <div class="page">
+    <form method="POST" class="formCreate">
+      <h1>Cadastrar Filme</h1>
+      <p>Digite os dados de cadastro do filme nos campos abaixo.</p>
+      <label for="title">Título</label>
+      <input type="text" placeholder="Título do filme" autofocus="true" id="title" required />
+      <label for="genre">Gênero</label>
+      <input type="text" placeholder="Gênero do filme" id="genre" required />
+      <label for="year">Ano</label>
+      <input type="text" placeholder="Ano de lançamento do filme" id="year" required />
+      <input type="submit" value="Enviar" class="btn" />
+    </form>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/createMovie.js"></script>
+</body>
+
+</html>

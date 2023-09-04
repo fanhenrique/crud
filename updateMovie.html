@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atualizar Filmes</title>
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/updateMovie.css">
+
+</head>
+
+<body>
+  <div class="top-menu">
+    <a href="/createMovie.html">Criar</a>
+    <a href="/readMovie.html">Listar</a>
+    <a href="/deleteMovie.html">Deletar</a>
+    <a href="/updateMovie.html">Update</a>
+  </div>
+
+  <div class="page">
+    <div class="cardMovie">
+      <h1>Atualizar Filme</h1>
+      <div id="movieList"></div>
+      <div id="demo-modal" class="modal">
+        <div class="content">
+          <div id="updateFormContainer"></div>
+          <div class="footer">
+            <a href="/updateMovie.html" class="footer-btn-close">Fechar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/api.js"></script>
+    <script src="js/updateMovie.js"></script>
+</body>
+
+</html>

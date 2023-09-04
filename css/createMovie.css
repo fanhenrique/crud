@@ -1,0 +1,98 @@
+.formCreate {
+  display: flex;
+  flex-direction: column;
+  background-color: #1F1F1F;
+  border: 1px solid #a1a1a1;
+  border-radius: 7px;
+  padding: 40px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+  gap: 5px;
+}
+
+.formCreate h1 {
+  padding: 0;
+  margin: 0;
+  color: #FFF;
+  font-weight: 500;
+  font-size: 2.3em;
+  text-align: center;
+}
+
+.formCreate p {
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  color: #a1a1a1;
+  margin-bottom: 25px;
+}
+
+.formCreate input {
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border-radius: 4px;
+  transition: all linear 160ms;
+  outline: none;
+}
+
+.formCreate input:focus {
+  border: 1px solid #1B95C4;
+}
+
+.formCreate label {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.formCreate a {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: #555;
+  transition: all linear 160ms;
+}
+
+.formCreate a:hover {
+  color: #f72585;
+}
+
+.btn {
+  background-color: #1B95C4;
+  color: #1F1F1F;
+  font-size: 32px;
+  font-weight: 600;
+  transition: all linear 160ms;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #1B95C4;
+}
+
+@media (max-width: 500px) {
+  .formCreate {
+    padding: 10px;
+    gap: 5px;
+    width: 250px;
+  }
+
+  .formCreate h1 {
+    font-size: 1.6em;
+  }
+
+  .formCreate p {
+    font-size: 1rem;
+    margin-bottom: 25px;
+  }
+
+  .formCreate input {
+    padding: 10px;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+}
